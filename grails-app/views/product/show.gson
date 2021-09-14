@@ -1,0 +1,7 @@
+import grails.rest.hibernate.Product
+
+model {
+	Product product
+}
+
+json tmpl.product(product)
